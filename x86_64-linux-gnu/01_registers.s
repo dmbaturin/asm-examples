@@ -40,7 +40,7 @@ main:
     mov %eax, %r15d
     mov %al, %r9b
 
-    /* Load memory address of the "main" function into %r11 
+    /* Load memory address of the "main" function into %r11 */
     mov main, %r11
 
     /* Note the absense of "$": bare number or symbol is  
